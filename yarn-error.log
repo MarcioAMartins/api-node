@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\DevOps\.node\corepack\yarn\1.22.15\bin\yarn.js add https
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\DevOps\AppData\Local\Microsoft\WindowsApps;C:\Users\DevOps\.dotnet\tools;C:\Users\DevOps\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DevOps\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\projetos\api-node\node_modules\sqlite3\lib\binding\node-v93-win32-x64\node_sqlite3.node'
+
+npm manifest: 
+  {
+    "name": "api-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/app.js",
+    "scripts": {
+      "dev": "nodemon src/app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.3",
+      "nodemon": "^2.0.15",
+      "sqlite": "^4.0.25",
+      "sqlite3": "^4.2.0"
+    },
+    "type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
